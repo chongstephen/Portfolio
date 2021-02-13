@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background-color: #27324b;
+}
+
+header{
+    background: rgb(32, 32, 41);
+    padding-top: 50px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav{
+    float: right;
+}
+
+nav a:hover{
+    border-color: white;
+    color: blue;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+    
+} 
+
+
+
+button{
+    background: none;
+    color:#3f76f5;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+    border-radius: 80%;
+}
+
+button:hover{
+    border-color: white;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}

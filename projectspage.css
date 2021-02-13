@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    background-color: #27324b;
+    text-align: center;
+    color: white;
+    font-family: 'Bodoni Moda', serif;    
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+header{
+    background: rgb(32, 32, 41);
+    padding-top: 50px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+nav{
+    float: right;
+}
+
+/* nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+} */
+
+
+
+
+/* a{
+    background: none;
+    color:#3f76f5;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all ease-in-out 250ms;
+}  */
+
+nav a:hover{
+    border-color: white;
+    color: blue;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.5em);
+    cursor: pointer;
+    
+} 
+
+
+
+button{
+    background: none;
+    color:#3f76f5;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.2s;
+    border-radius: 80%;
+}
+
+button:hover{
+    border-color: white;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+
+.jumbotron{
+    padding: 50px;
+}
+
+section{
+    max-width: 100%;
+    align-items: center;
+}
+
+section h1{
+    font-size: 6em;
+}
+
+section h2{
+    font-size: 4em;
+}
+
+
+.list-group-item{
+    background-color: transparent;
+    border: none;
+}
+
+a.icon-block {
+    display:inline-block;
+    width:10em;
+    /* float:left; */
+    text-align:center;
+}
+
+a.icon-block i,
+a.icon-block span {
+    display:block;
+    width:100%;
+    clear:both;
+}
+
+img{
+    width: 20%;
+}
+
+article h2{
+    padding: 20px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h1{
+    font-family: 'Bodoni Moda', serif;
+}
+
+form{
+    padding: 20px;
+    align-items: center;
+}
+
+#signature{
+    font-size: xx-large;
+}
